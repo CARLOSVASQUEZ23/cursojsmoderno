@@ -9,12 +9,12 @@ const formulario = document.querySelector('#formulario');
 //   console.log(e.target.method);
 // })
 
-formulario.addEventListener('submit', validarFormulario);
+// formulario.addEventListener('submit', validarFormulario);
 
-function validarFormulario(e) {
-  e.preventDefault(); //Detiene el action y el método por defecto de un formulario
+// function validarFormulario(e) {
+//   e.preventDefault(); //Detiene el action y el método por defecto de un formulario
 
-  console.log('Consultar una API');
+//   console.log('Consultar una API');
 
-  console.log(e.target.action); 
-}
+//   console.log(e.target.action); 
+// }

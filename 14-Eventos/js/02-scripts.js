@@ -21,6 +21,6 @@ const nav = document.querySelector('.navegacion');
 //   console.log('Saliendo de la navegación');
 // })
 
-nav.addEventListener('dblclick', () => { //se registra cuando hacemos doble click
-  console.log('Realizaste un doble click');
-})
+// nav.addEventListener('dblclick', () => { //se registra cuando hacemos doble click
+//   console.log('Realizaste un doble click');
+// })

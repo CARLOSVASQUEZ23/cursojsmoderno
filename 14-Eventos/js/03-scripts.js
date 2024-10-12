@@ -31,6 +31,7 @@ const busqueda = document.querySelector('.busqueda');
 
 busqueda.addEventListener('input', (e) => { //Registrar lo que el usuario escribe
   if(e.target.value === '') {
-      console.log('El campo está vacío, falló la validación');
+      alert('El campo está vacío, falló la validación');
   }
+ 
 })

@@ -1,20 +1,20 @@
-//Eventos con el SCROLL
+// Eventos con el SCROLL
 // window.addEventListener('scroll', () => {
 //   const scrollPX = window.scrollY; //scrollY detecta el movimiento en vertical
 //   console.log(scrollPX);
 // })
 
-//DETECTAR UNA SECCIÓN EN ESPECÍFICO
-window.addEventListener('scroll', () => {
+// DETECTAR UNA SECCIÓN EN ESPECÍFICO
+// window.addEventListener('scroll', () => {
 
-  const premium = document.querySelector('.premium');
-  const ubicacion = premium.getBoundingClientRect();
+//   const premium = document.querySelector('.premium');
+//   const ubicacion = premium.getBoundingClientRect();
 
-  // console.log(ubicacion); //debugging para detectar coordenadas
+//   // console.log(ubicacion); //debugging para detectar coordenadas
 
-  if(ubicacion.top < 784) {
-    console.log('El elemento ya está visible');
-  } else {
-    console.log('Aún no, tienes que dar más scroll');
-  }
-})
+//   if(ubicacion.top < 584) {
+//     console.log('El elemento ya está visible');
+//   } else {
+//     console.log('Aún no está visible, tienes que dar más scroll');
+//   }
+// })
